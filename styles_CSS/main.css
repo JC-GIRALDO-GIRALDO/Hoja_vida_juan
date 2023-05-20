@@ -1,0 +1,39 @@
+.main {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-right: 5px solid black;
+    display: grid;
+    grid-template-columns: 950px;
+    
+}
+
+.main > h1 {
+    text-align: center;
+}
+
+.txt1 {
+    color: rgb(24, 46, 105);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.txt2 {
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.main > h2 {
+    background-color: rgb(24, 46, 105);
+    border-radius: 150px;
+    margin-left: 40px;
+    color: white;
+    padding: 0;
+    text-align: center;
+
+}
+
+.main p {
+    margin-left: 40px;
+    
+}

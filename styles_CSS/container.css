@@ -3,7 +3,7 @@
   float: auto;
   width: 1400px;
   background-color: rgb(24, 46, 105);
-  border: 3px solid black;
+  border: 3px solid rgb(255, 255, 255);
   display: grid;
   grid-template-columns: 330px 997px;
 }

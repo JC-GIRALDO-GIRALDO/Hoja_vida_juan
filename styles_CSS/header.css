@@ -1,52 +1,74 @@
 .header {
-    float: left;
-    background-color: rgb(24, 46, 105);
-    border-right: 5px solid black;
-    display: grid;
-    grid-template-columns: 330px;
+  float: left;
+  background-color: rgb(24, 46, 105);
+  border-right: 5px solid black;
+  display: grid;
+  grid-template-columns: 330px;
+  align-self: flex-start;
 }
 
 #foto {
-    float: auto;
-    width: 330px;
-    margin-top: 20px;
+  float: auto;
+  width: 330px;
+  margin-top: 20px;
 }
 
 .header > h2 {
-    background-color: black;
-    margin: 0;
-    color: white;
-    text-align: center;
+  background-color: black;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.header > a {
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.header > a:hover {
+  background-color: black;
+  transition: 5ms;
 }
 
 #correo {
-    float: auto;
-    width: 60px;
-    padding-left: 80px;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+  width: 65px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 200px;
+  padding-right: 60px;
+  background-color: dimgray;
+  border-radius: 40px;
 }
 
-#contacto {
-    float: auto;
-    width: 60px;
-    padding-left: 80px;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+.header > #contacto {
+  width: 65px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 200px;
+  padding-right: 60px;
+  background-color: dimgray;
+  border-radius: 40px;
 }
 
 #ubicacion {
-    float: auto;
-    width: 60px;
-    padding-left: 80px;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+  width: 65px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 200px;
+  padding-right: 60px;
+  background-color: dimgray;
+  border-radius: 40px;
 }
 
 #redglobal {
-    float: auto;
-    width: 60px;
-    padding-left: 80px;
-    margin-top: 20px;
-    background-color: rgb(255, 255, 255);
+  width: 65px;
+  margin-top: 10px;
+  height: 40px;
+  margin-left: 200px;
+  padding-right: 60px;
+  background-color: dimgray;
+  border-radius: 40px;
 }

@@ -1,5 +1,6 @@
-head , body {
-    margin: 0;
-    padding: 0;
-    background-color: darkcyan;
+head,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(80, 73, 73);
 }

@@ -1,8 +1,9 @@
 #container {
-    margin: 20px auto;
-    float: auto;
-    width: 1400px;
-    background-color: rgb(24, 46, 105);
-    display: grid;
-    grid-template-columns: 330px 997px;
+  margin: 20px auto;
+  float: auto;
+  width: 1400px;
+  background-color: rgb(24, 46, 105);
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: 330px 997px;
 }
